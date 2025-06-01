@@ -1,0 +1,10 @@
+.container {
+  border: 3px solid rgb(227, 124, 106);
+  border-radius: 10px;
+  max-width: 370px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  box-shadow: var(--card-shadow);
+  background: var(--dark-bg-img);
+}

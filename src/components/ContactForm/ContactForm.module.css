@@ -1,0 +1,53 @@
+.form {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  padding: 20px;
+  border: 2px solid var(--light-text-color);
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.inputForm {
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 15px;
+  border: none;
+}
+
+.spanForm {
+  color: var(--light-text-color);
+  margin-bottom: 3px;
+}
+
+.inputLabel {
+  color: var(--light-text-color);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+
+.btn {
+  padding: 1.5em 3em;
+  font-size: 1em;
+  border: none;
+  outline: none;
+  color: rgb(62, 171, 60);
+  background: #1b1717;
+  font-weight: bolder;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btn:hover {
+  scale: 1.02;
+}
+
+.error {
+  color: tomato;
+}
